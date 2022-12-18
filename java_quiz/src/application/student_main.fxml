@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ButtonBar xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_student_main">
+   <buttons>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="quiz_button" layoutX="118.0" layoutY="153.0" mnemonicParsing="false" onAction="#quiz1ButtonOnAction" text="Chapter 1 quiz" />
+            <Text fx:id="welcome_user" layoutX="166.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Main Menu" wrappingWidth="304.21630859375">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fx:id="best_score1" layoutX="263.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best score:" wrappingWidth="74.06787109375">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+            <Button fx:id="back" layoutX="483.0" layoutY="360.0" mnemonicParsing="false" onAction="#backButtonOnAction" prefHeight="26.0" prefWidth="103.0" text="Back" />
+            <Text fx:id="best_score" fill="#d1241d" layoutX="353.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+         </children>
+      </AnchorPane>
+   </buttons>
+</ButtonBar>
